@@ -458,8 +458,15 @@ a {
 }
 
 /* Projects styles */
+
+.list-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
 .project-images {
-    width: 370px;
+    width: 370px;px
     height: 294px;
     margin-bottom: 20px;
 }
