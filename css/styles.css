@@ -95,6 +95,7 @@ a {
 .main-nav {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC ;
 }
 
 /* header styles  */
@@ -290,6 +291,10 @@ a {
 .team-member {
     background-color: var(--body-backgroud-color);
     margin-right: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+   
 }
 .team-member:last-child {
     margin-right: 0;
@@ -321,6 +326,11 @@ a {
     letter-spacing: 0.03em;
 }
 
+/* footer container */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 /* footer section styles  */
 .footer {
@@ -339,6 +349,7 @@ a {
     font-size: 26px;
     line-height: calc(31 / 26);
 }
+
 .footer-link-address {
     color: #FFFFFF;
     font-style: normal;
@@ -364,6 +375,21 @@ a {
 .footer-link-address:focus {
     color: #2196F3;
 }
+.footer-link-address {
+    margin-bottom: 12px;
+}
+
+
+.footer-link:not(:last-child){
+   margin-bottom: 12px;
+}
+.footer-link:last-child {
+    margin-bottom: 0;
+}
+.footer-contacts {
+    margin-top: 28px;
+}
+
 
 /**** Porfolio Styles ****/
 .header-nav-link .header-nav-link.current
