@@ -107,8 +107,6 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
-    padding-top: 32px;
-    padding-bottom: 32px;
   
 }
  .header-nav-link:last-child {
@@ -134,6 +132,7 @@ a {
  }
 .contacts-list {
     display: flex;
+    margin-left: auto;
 }
 .contacts-item:last-child {
     margin-right: 0;
@@ -228,7 +227,19 @@ a {
   color: var(--primary-title-color);
   
 }
-.strength-name {
+
+.strength-list {
+    display: flex;
+}
+
+.strength-item:not(:last-child) {
+   margin-right: 30px;
+}
+.strength-item:last-child {
+    margin-right: 0;
+}
+
+ .strength-name {
   font-size: 14px;
   line-height: 16px; 
   letter-spacing: 0.03em;
