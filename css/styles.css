@@ -94,7 +94,10 @@ a {
 .main-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC ;
+   
+}
+.header-main {
+    border-bottom: 1px solid #ECECEC;
 }
 
 /* header styles  */
@@ -222,7 +225,7 @@ display: block;
     text-transform: uppercase;
 }
 .strength-text {
-    width: 264px;
+    width: 270px;
     font-size: 14px;
     line-height: calc(24 / 14);
 }
